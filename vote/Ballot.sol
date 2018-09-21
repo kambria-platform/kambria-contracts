@@ -1,6 +1,6 @@
 pragma solidity ^0.4.23;
 
-import "./SafeMath.sol";
+import "./../helpers/SafeMath.sol";
 
 contract Ballot {
   using SafeMath for uint256;
@@ -29,7 +29,7 @@ contract Ballot {
     _;
   }
 
-  function Ballot(address moderator, uint256 rate, bytes32[] cids) {
+  constructor(address moderator, uint256 rate, bytes32[] cids) public {
     MODERATOR = moderator;
     START = block.number;
     END = 0;
@@ -45,7 +45,7 @@ contract Ballot {
     END = 0;
   }
 
-  function() payable mustBeVoting {
+  function() public payable mustBeVoting {
     uint256 value = msg.value;
     msg.sender.transfer(msg.value);
 
