@@ -1,4 +1,11 @@
 # kambriavote
 Ethereum solidity contract for KambriaVote
 
-[Overview of KambriaVote](https://medium.com/@teamkambria/an-in-depth-look-at-kambriavote-e202476ee79f)
+* [Bounty Contracts](./bounty)
+* [Value Capture Contracts](./bounty)
+* [Codebase Contracts](./bounty)
+* [The Judges Contracts](./bounty)
+* [Karma Contracts](./bounty)
+* [Database Contracts](./bounty)
+* [Token Contracts](./bounty)
+* [Vote Contracts](./bounty)
