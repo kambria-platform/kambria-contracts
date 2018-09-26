@@ -28,9 +28,11 @@ contract VoteModerator is Ownable {
   }
 
   function getSBID(address ballot) public view returns (uint256) {
-    for(uint256 i = 0; i < ballots.length; i++)
-      if(ballot == ballots[i])
+    for (uint256 i = 0; i < ballots.length; i++) {
+      if (ballot == ballots[i]) {
         return i;
+      }
+    }
   }
   
   // rate:

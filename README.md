@@ -1,4 +1,16 @@
-# kambriavote
-Ethereum solidity contract for KambriaVote
+# KAMBRIA CONTRACTS
 
-[Overview of KambriaVote](https://medium.com/@teamkambria/an-in-depth-look-at-kambriavote-e202476ee79f)
+## Introduction
+
+Kambria contracts are based on Solidity Language.
+
+## Contents
+
+* [Bounty Contracts](./bounty)
+* [Value Capture Contracts](./capturer)
+* [Codebase Contracts](./codebase)
+* [The Judges Contracts](./committee)
+* [Karma Contracts](./karma)
+* [Database Contracts](./simpledb)
+* [Token Contracts](./token)
+* [Vote Contracts](./vote)
