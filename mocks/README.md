@@ -1,0 +1,1 @@
+# Mocks contracts are contracts which re-implement the function of original contracts and just use for testing
